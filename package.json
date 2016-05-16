@@ -1,0 +1,38 @@
+{
+  "name": "learncoderate",
+  "version": "1.0.0",
+  "description": "Learn to Code - Learn/Code/Rate project",
+  "main": "",
+  " dependencies": {
+    "js-yaml": "^3.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "pug": "^2.0.0-alpha7",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-to-code-denver/learncoderate.git"
+  },
+  "keywords": [
+    "learntocode",
+    "example"
+  ],
+  "contributors": [
+    {
+      "name": "Matt Sprague"
+    },
+    {
+      "name": "Alex Baker"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learn-to-code-denver/learncoderate/issues"
+  },
+  "homepage": "https://github.com/learn-to-code-denver/learncoderate#readme"
+}
