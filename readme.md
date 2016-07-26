@@ -20,4 +20,21 @@ _This is a [Learn to Code at the Denver Library](http://www.meetup.com/learntoco
 1. Feedback will be given via comments on the pull request.
 1. Once everything looks good your changes will be merged!
 
-# Connecting to the mongo instance `mongo 127.0.0.1:27017/learncoderate`
+## Git Flow
+
+We will be following the branching model described in this article: http://nvie.com/posts/a-successful-git-branching-model
+
+### Quick Description
+
+* Features and bugs will be worked on in a new branch created off of the `develop` branch.
+* Pull requests will be merged into the `develop` branch.
+* When features and bug fixes are ready for production, they will be merged into the `master` branch.
+* The `master` branch will contain the current, stable version of the application.
+
+Post a question in the [Slack group](http://learn-to-code-slack-sign-up.stamplayapp.com) if you have any questions about how we are handling branches.
+
+## Additional Information
+
+* Connecting to the mongo instance:
+
+        $ mongo 127.0.0.1:27017/learncoderate
