@@ -1,4 +1,4 @@
-FROM node:0.10
+FROM node:argon
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
