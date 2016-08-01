@@ -15,8 +15,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server','views'));
-app.engine('handlebars', exphbs({defaultLayout: 'main', layoutsDir: __dirname + '/app_server/views/layouts' }))
-app.set('view engine', 'handlebars');
+//app.set('view engine', 'handlebars');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

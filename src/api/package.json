@@ -1,5 +1,5 @@
 {
-  "name": "loc8r",
+  "name": "learncoderate",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -7,7 +7,6 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "express": "~4.13.4",
-    "express-handlebars": "^3.0.0",
     "mongoose": "^4.5.6",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
