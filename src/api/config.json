@@ -1,0 +1,6 @@
+{
+	"destination" : "../../dist/api",
+	"version" : "1.0.0",
+	"src" : ["server.js", "routes/*", "models/*","controllers/*"],
+	"defaultFlags" : "autoclean"
+}

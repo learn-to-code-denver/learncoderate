@@ -5,5 +5,5 @@ WORKDIR /srv/http/learncoderate/webclient
 
 COPY . /srv/http/learncoderate/webclient
 
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]
 EXPOSE 80 

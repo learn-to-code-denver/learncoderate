@@ -1,0 +1,15 @@
+# This is a work in progess
+# Don't use it yet
+
+[Unit]
+Description=Learn Code Rate API Server
+
+
+[Service]
+ExecStart=/usr/bin/node server.js
+KillMode=process
+Restart=always
+
+
+[Install]
+WantedBy=ltc-appserver.target

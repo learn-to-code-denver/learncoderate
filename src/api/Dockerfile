@@ -7,5 +7,5 @@ WORKDIR /srv/node/learncoderate/api
 
 COPY . /srv/node/learncoderate/api
 
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]
 EXPOSE 3000 
