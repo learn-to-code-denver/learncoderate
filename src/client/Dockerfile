@@ -5,7 +5,7 @@ RUN mkdir -p /srv/http/learncoderate/webclient
 WORKDIR /srv/http/learncoderate/webclient
 
 COPY . /srv/http/learncoderate/webclient
-
+npm install
 CMD [ "node", "server.js" ]
 # this should be set based on the config
 EXPOSE 3000
