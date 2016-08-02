@@ -28,7 +28,7 @@ app.use(compressor());
 app.use(express.static(__dirname + serverConfig.rootDir));
 
 
-<<<<<<< HEAD
+
 =======
 // Configuration priority
 //   config file 
