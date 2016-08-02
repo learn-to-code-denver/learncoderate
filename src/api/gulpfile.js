@@ -1,6 +1,7 @@
-var gulp = require('gulp');
-var config = require('./config.json');
-var chalk = require('chalk');
+const gulp = require('gulp');
+const eslint = require('gulp-eslint');
+const config = require('./config.json');
+const chalk = require('chalk');
 
 //this could potentially read package.json for version and
 //other basic config information
@@ -11,19 +12,24 @@ var project = {
 };
 
 
-gulp.task('default', function() {
+gulp.task('default', () => {
    console.log("Beginning Default Task");
 
 });
 
 
-gulp.task('info', function() {
+gulp.task('info', () => {
 	// require and use util.inspect to get pretty printing
     console.log(chalk.blue(JSON.stringify(project)));
    
 });
 
 
-gulp.task('build',function() {
+gulp.task('build', ()=> {
      console.log(`Building: ${project.name}`);
+});
+
+
+gulp.task('lint', () => {
+    
 });

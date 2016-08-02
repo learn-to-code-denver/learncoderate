@@ -1,3 +1,8 @@
 body {
 	margin: 10px
 }
+
+div#navbar-main > ul > li > button {
+    background-color : transparent;
+    border : none;
+}
