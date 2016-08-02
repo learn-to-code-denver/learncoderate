@@ -10,6 +10,8 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "jspm": "^0.16.42"
   }
 }

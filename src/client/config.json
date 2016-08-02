@@ -1,4 +1,4 @@
 {
-	"destination" : "../../dist/web"
-
+	"destination" : "../../dist/web",
+	"logFile" : "./lcr-web-client.log"
 }

@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 const serverConfig = {
-    defaultPort : "3000",
+    defaultPort : "8080",
     rootDir : "/"
 };
 
