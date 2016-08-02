@@ -29,10 +29,8 @@ app.use(express.static(__dirname + serverConfig.rootDir));
 
 
 
-=======
 // Configuration priority
 //   config file 
 //   Environment Variable
 //   Command line parameters
->>>>>>> 8b39475dd7b721d2ed78e42d37693eeaef9da1a7
 app.listen(process.env.PORT || serverConfig.defaultPort);
